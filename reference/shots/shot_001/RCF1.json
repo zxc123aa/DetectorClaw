@@ -1,0 +1,197 @@
+{
+    "materials": [
+        {
+            "material_name": "Al",
+            "thickness": "100",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "HD",
+            "thickness": "105",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 0,
+                "table_ID": 1,
+                "Cutoff_ene": 3.6000000000000023
+            }
+        },
+        {
+            "material_name": "Al",
+            "thickness": "3700",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 1,
+                "table_ID": 3,
+                "Cutoff_ene": 28.600000000000023
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 2,
+                "table_ID": 5,
+                "Cutoff_ene": 43.70000000000004
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 3,
+                "table_ID": 7,
+                "Cutoff_ene": 56.00000000000005
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 4,
+                "table_ID": 9,
+                "Cutoff_ene": 66.60000000000005
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 5,
+                "table_ID": 11,
+                "Cutoff_ene": 76.10000000000007
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 6,
+                "table_ID": 13,
+                "Cutoff_ene": 84.90000000000008
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 7,
+                "table_ID": 15,
+                "Cutoff_ene": 93.10000000000008
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 8,
+                "table_ID": 17,
+                "Cutoff_ene": 100.80000000000008
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 9,
+                "table_ID": 19,
+                "Cutoff_ene": 108.1000000000001
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 10,
+                "table_ID": 21,
+                "Cutoff_ene": 115.10000000000011
+            }
+        },
+        {
+            "material_name": "Tungsten",
+            "thickness": "1000.0",
+            "thickness_type": "variable",
+            "rcf": null
+        },
+        {
+            "material_name": "EBT",
+            "thickness": "280",
+            "thickness_type": "fixed",
+            "rcf": {
+                "rcf_id": 11,
+                "table_ID": 23,
+                "Cutoff_ene": 121.80000000000011
+            }
+        }
+    ],
+    "custom_materials": {}
+}

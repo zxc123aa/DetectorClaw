@@ -1,0 +1,33 @@
+film_type: EBT3
+
+material_film_types:
+  HD: HDV2
+  EBT: EBT3
+
+background:
+  film_path: /mnt/c/Songtan/怀柔/RCF/dosimetry/background/EBT4-new-background.tif
+  scanner_path: /mnt/c/Songtan/怀柔/RCF/dosimetry/background/ScannerBackground.tif
+  film_paths:
+    HDV2: /mnt/c/Songtan/怀柔/RCF/dosimetry/background/HD-new-background.tif
+    EBT3: /mnt/c/Songtan/怀柔/RCF/dosimetry/background/EBT4-new-background.tif
+
+segmentation:
+  backend: auto
+  min_area: 5000
+  padding: 4
+  sort_mode: yx
+
+calibration:
+  backend: auto
+  background_quantile: 95
+  film_models:
+    HDV2:
+      kind: polynomial
+      coefficients: [5.27, 189.94, 1892.86, -2382.53, 1147.75]
+    MDV3:
+      kind: polynomial
+      coefficients: [7.3, -103.3, 1934.2, -5403.2, 5721.2]
+    EBT3:
+      kind: power_law
+      scale: 38.02
+      exponent: 2.6

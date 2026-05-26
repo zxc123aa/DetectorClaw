@@ -1,0 +1,11 @@
+.worktrees/
+.pytest_cache/
+__pycache__/
+.playwright-cli/
+runs/
+.detectorclaw/
+native/rcf_preview_core/target/
+*.zip
+*.egg-info/
+reference/shots/**/*.tif
+reference/shots/**/*.tiff
